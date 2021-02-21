@@ -1,0 +1,186 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Steve",
+      "avatar": "https://randomuser.me/api/portraits/men/10.jpg",
+      "username": "steve22",
+      "bio": "lorem ipsum lalalala",
+      "phone": "+998-94-1081080"
+    },
+    {
+      "id": 2,
+      "name": "Thomas McClary",
+      "avatar": "https://randomuser.me/api/portraits/men/85.jpg",
+      "username": "asda21",
+      "bio": "lorem ipsum lalalala",
+      "phone": "+998-94-1081080"
+    },
+    {
+      "id": 3,
+      "name": "Artem Almazov",
+      "avatar": "https://randomuser.me/api/portraits/men/95.jpg",
+      "username": "dsjdsj92",
+      "bio": "lorem ipsum kjdjdsajdsa",
+      "phone": "+998-94-1081080"
+    },
+    {
+      "id": 4,
+      "name": "Anna Korchenko",
+      "avatar": "https://randomuser.me/api/portraits/women/95.jpg",
+      "username": "oo0ol",
+      "bio": "lorem nadsjjuqwe lalalala",
+      "phone": "+998-94-1081080"
+    },
+    {
+      "id": 5,
+      "name": "Johny Williams",
+      "avatar": "https://randomuser.me/api/portraits/men/15.jpg",
+      "username": "lalalla0",
+      "bio": "lorem ipsum dasnczm a",
+      "phone": "+998-94-1231232"
+    },
+    {
+      "id": 6,
+      "name": "Mamie Cruz",
+      "avatar": "https://randomuser.me/api/portraits/men/16.jpg",
+      "username": "mialdoa",
+      "bio": "lorem kasdje lalalala",
+      "phone": "+998-94-1081080"
+    },
+    {
+      "id": 7,
+      "name": "Peter",
+      "avatar": "https://randomuser.me/api/portraits/men/17.jpg",
+      "username": "steve22",
+      "bio": "lorem sdnkeqw0 ko lalalala",
+      "phone": "+998-94-1081080"
+    },
+    {
+      "id": 8,
+      "name": "Justin Max",
+      "avatar": "https://randomuser.me/api/portraits/men/18.jpg",
+      "username": "steve22",
+      "bio": "lorem ipsum lalalala",
+      "phone": "+998-94-1081080"
+    },
+    {
+      "id": 9,
+      "name": "Paula Miranchuk",
+      "avatar": "https://randomuser.me/api/portraits/women/19.jpg",
+      "username": "steve22",
+      "bio": "lorem ipsum lalalala",
+      "phone": "+998-94-1081080"
+    },
+    {
+      "id": 10,
+      "name": "Imran Ismail",
+      "avatar": "https://randomuser.me/api/portraits/men/20.jpg",
+      "username": "steve22",
+      "bio": "lorem ipsum lalalala",
+      "phone": "+998-94-1081080"
+    },
+    {
+      "id": 11,
+      "name": "Willy Williams",
+      "avatar": "https://randomuser.me/api/portraits/women/46.jpg",
+      "username": "steve22",
+      "bio": "lorem ipsum lalalala",
+      "phone": "+998-94-1081080"
+    },
+    {
+      "id": 12,
+      "name": "Khan",
+      "avatar": "https://randomuser.me/api/portraits/men/17.jpg",
+      "username": "steve22",
+      "bio": "lorem ipsum lalalala",
+      "phone": "+998-94-1081080"
+    },
+    {
+      "id": 13,
+      "name": "Maurio Icardi",
+      "avatar": "https://randomuser.me/api/portraits/men/38.jpg",
+      "username": "steve22",
+      "bio": "lorem ipsum lalalala",
+      "phone": "+998-94-1081080"
+    },
+    {
+      "id": 14,
+      "name": "Monica",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg",
+      "username": "steve22",
+      "bio": "lorem ipsum lalalala",
+      "phone": "+998-94-1081080"
+    },
+    {
+      "id": 15,
+      "name": "Artur Williams",
+      "avatar": "https://randomuser.me/api/portraits/men/88.jpg",
+      "username": "steve22",
+      "bio": "lorem ipsum lalalala",
+      "phone": "+998-94-1081080"
+    }
+  ],
+  "messages": [
+    {
+      "message": "kldsadsadsa",
+      "time": "2021-02-21T08:56:33.088Z",
+      "chat_id": 1,
+      "id": 3
+    },
+    {
+      "message": "Test",
+      "time": "2021-02-21T09:51:10.171Z",
+      "chat_id": 1,
+      "id": 4
+    },
+    {
+      "message": "234234",
+      "time": "2021-02-21T09:51:39.977Z",
+      "chat_id": 2,
+      "id": 5
+    },
+    {
+      "message": "oxshadi",
+      "time": "2021-02-21T10:24:39.752Z",
+      "chat_id": 1,
+      "id": 7
+    },
+    {
+      "message": "message",
+      "time": "2021-02-21T10:55:42.423Z",
+      "chat_id": 1,
+      "id": 9
+    },
+    {
+      "message": "lorem ipsum",
+      "time": "2021-02-21T10:55:51.186Z",
+      "chat_id": 5,
+      "id": 10
+    },
+    {
+      "message": "sadedsadsfj",
+      "time": "2021-02-21T12:40:50.088Z",
+      "chat_id": 9,
+      "id": 11
+    },
+    {
+      "message": "osh",
+      "time": "2021-02-21T12:42:30.433Z",
+      "chat_id": 3,
+      "id": 12
+    },
+    {
+      "message": "lakatum",
+      "time": "2021-02-21T12:42:53.234Z",
+      "chat_id": 1,
+      "id": 13
+    },
+    {
+      "message": "send to Monica",
+      "time": "2021-02-21T12:43:38.059Z",
+      "chat_id": 14,
+      "id": 14
+    }
+  ]
+}
