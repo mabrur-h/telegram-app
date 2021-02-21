@@ -80,13 +80,8 @@ export default {
           })
     },
     getNow: function() {
-      let timestamp = '';
       const today = new Date();
-      const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-      const time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-      timestamp = date + ' ' + time;
-      console.log(timestamp)
-      return today
+      return today.getHours() + ":" + today.getMinutes()
     },
     deleteMessage(id) {
       this.$http.delete('http://localhost:3000/messages/'+id)

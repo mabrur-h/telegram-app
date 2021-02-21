@@ -166,7 +166,7 @@
                     <div class="user-info-wrapper">
                       <div class="personal-info">
                         <h4 class="user-info-name"  >
-                          Mamie Cruz
+                          {{ userInfo.fullName }}
                         </h4>
                         <p class="last-seen">last seen at 20:20</p>
                       </div>
@@ -191,11 +191,11 @@
                         </li>
                         <li
                             class="chat-msg msg-sent"
-                            v-for="(message, i) in filteredMessages"
+                            v-for="(message) in filteredMessages"
                             :key="message.id"
                         >
                           {{message.message}}
-                          <span class="message-time">20:20</span>
+                          <span class="message-time">{{message.time | filterDateTime}}</span>
                           <i class="icon-check_all_big"></i>
                           <span class="close-button" @click="deleteMessage(message.id)">x</span>
                         </li>
@@ -229,7 +229,7 @@
                       max-width="400px"
                   >
                     <v-card>
-                      <user-info @getMessage="getMessageFromUser"></user-info>
+                      <user-info :userInfo="userInfo" />
                     </v-card>
                   </v-dialog>
                 </div>
@@ -245,7 +245,7 @@
                   height="85vh"
                   class="rounded-br-lg rounded-tr-lg users-information"
               >
-                <user-info :userId="userId" />
+                <user-info :userInfo="userInfo" />
               </v-sheet>
             </v-col>
           </v-row>
@@ -258,11 +258,10 @@
 <script>
 
 import UserItem from "@/components/users/UserItem";
-import Messages from "@/components/MessageArea/Messages";
 import UserInfo from "@/components/users/UserInfo";
 
 export default {
-  components: {Messages, UserItem, UserInfo},
+  components: {UserItem, UserInfo},
   data: () => ({
     drawer: false,
     group: null,
@@ -275,7 +274,14 @@ export default {
     createdMessage: '',
     messages: [],
     filteredMessages: '',
-    userId: 1
+    userId: 1,
+    userInfo: {
+      fullName: '',
+      photoUrl: '',
+      userName: '',
+      phoneNumber: '',
+      bio: ''
+    }
   }),
   methods: {
     postMessage() {
@@ -292,6 +298,7 @@ export default {
             })
             .then(newMessage => {
               this.loadMessages();
+              console.log(newMessage)
             })
 
         this.createdMessage = ''
@@ -325,6 +332,7 @@ export default {
           })
           .then(deletedMessage => {
             this.loadMessages()
+            console.log(deletedMessage)
           })
     },
     getMessageFromUser(id) {
@@ -333,10 +341,30 @@ export default {
       this.filteredMessages = this.messages.filter(function (message) {
         return message.chat_id == id
       })
+    },
+    getUserInfo(id) {
+      this.$http.get('http://localhost:3000/users/'+id)
+          .then(response => {
+            return response.json()
+          })
+          .then(userInfo => {
+            this.userInfo.fullName = userInfo.name;
+            this.userInfo.photoUrl = userInfo.avatar
+            this.userInfo.userName = userInfo.username
+            this.userInfo.phoneNumber = userInfo.phone
+            this.userInfo.bio = userInfo.bio
+          })
     }
   },
   created() {
     this.loadMessages()
+    this.getUserInfo(2)
+  },
+  watch: {
+    userId: function (newVal) { // watch it
+      console.log('watched user id', newVal)
+      this.getUserInfo(newVal)
+    }
   }
 };
 </script>
