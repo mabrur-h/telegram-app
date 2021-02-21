@@ -1,0 +1,219 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Steve",
+      "avatar": "https://randomuser.me/api/portraits/men/10.jpg",
+      "username": "steve22",
+      "bio": "lorem ipsum lalalala",
+      "phone": "+998-94-1081080",
+      "activity": "last seen at 19:12"
+    },
+    {
+      "id": 2,
+      "name": "Thomas McClary",
+      "avatar": "https://randomuser.me/api/portraits/men/85.jpg",
+      "username": "asda21",
+      "bio": "lorem ipsum lalalala",
+      "phone": "+998-94-1081080",
+      "activity": "last seen at 10:00"
+    },
+    {
+      "id": 3,
+      "name": "Artem Almazov",
+      "avatar": "https://randomuser.me/api/portraits/men/95.jpg",
+      "username": "dsjdsj92",
+      "bio": "lorem ipsum kjdjdsajdsa",
+      "phone": "+998-94-1081080",
+      "activity": "last seen recently"
+    },
+    {
+      "id": 4,
+      "name": "Anna Korchenko",
+      "avatar": "https://randomuser.me/api/portraits/women/95.jpg",
+      "username": "oo0ol",
+      "bio": "lorem nadsjjuqwe lalalala",
+      "phone": "+998-94-1081080",
+      "activity": "last seen at 18:18"
+    },
+    {
+      "id": 5,
+      "name": "Johny Williams",
+      "avatar": "https://randomuser.me/api/portraits/men/15.jpg",
+      "username": "lalalla0",
+      "bio": "lorem ipsum dasnczm a",
+      "phone": "+998-94-1231232",
+      "activity": "last seen a month ago"
+    },
+    {
+      "id": 6,
+      "name": "Mamie Cruz",
+      "avatar": "https://randomuser.me/api/portraits/men/16.jpg",
+      "username": "mialdoa",
+      "bio": "lorem kasdje lalalala",
+      "phone": "+998-94-1081080",
+      "activity": "last seen a few minutes ago"
+    },
+    {
+      "id": 7,
+      "name": "Peter",
+      "avatar": "https://randomuser.me/api/portraits/men/17.jpg",
+      "username": "steve22",
+      "bio": "lorem sdnkeqw0 ko lalalala",
+      "phone": "+998-94-1081080",
+      "activity": "last seen at 20:10"
+    },
+    {
+      "id": 8,
+      "name": "Justin Max",
+      "avatar": "https://randomuser.me/api/portraits/men/18.jpg",
+      "username": "steve22",
+      "bio": "lorem ipsum lalalala",
+      "phone": "+998-94-1081080",
+      "activity": "last seen at 12:10"
+    },
+    {
+      "id": 9,
+      "name": "Paula Miranchuk",
+      "avatar": "https://randomuser.me/api/portraits/women/19.jpg",
+      "username": "steve22",
+      "bio": "lorem ipsum lalalala",
+      "phone": "+998-94-1081080",
+      "activity": "last seen at 14:15"
+    },
+    {
+      "id": 10,
+      "name": "Imran Ismail",
+      "avatar": "https://randomuser.me/api/portraits/men/20.jpg",
+      "username": "steve22",
+      "bio": "lorem ipsum lalalala",
+      "phone": "+998-94-1081080",
+      "activity": "last seen at 18:18"
+    },
+    {
+      "id": 11,
+      "name": "Willy Williams",
+      "avatar": "https://randomuser.me/api/portraits/women/46.jpg",
+      "username": "steve22",
+      "bio": "lorem ipsum lalalala",
+      "phone": "+998-94-1081080",
+      "activity": "last seen at 9:00"
+    },
+    {
+      "id": 12,
+      "name": "Khan",
+      "avatar": "https://randomuser.me/api/portraits/men/17.jpg",
+      "username": "steve22",
+      "bio": "lorem ipsum lalalala",
+      "phone": "+998-94-1081080",
+      "activity": "last seen recently"
+    },
+    {
+      "id": 13,
+      "name": "Maurio Icardi",
+      "avatar": "https://randomuser.me/api/portraits/men/38.jpg",
+      "username": "steve22",
+      "bio": "lorem ipsum lalalala",
+      "phone": "+998-94-1081080",
+      "activity": "last seen recently"
+    },
+    {
+      "id": 14,
+      "name": "Monica",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg",
+      "username": "steve22",
+      "bio": "lorem ipsum lalalala",
+      "phone": "+998-94-1081080",
+      "activity": "last seen at 9:10"
+    },
+    {
+      "id": 15,
+      "name": "Artur Williams",
+      "avatar": "https://randomuser.me/api/portraits/men/88.jpg",
+      "username": "steve22",
+      "bio": "lorem ipsum lalalala",
+      "phone": "+998-94-1081080",
+      "activity": "last seen at 8:00"
+    }
+  ],
+  "messages": [
+    {
+      "message": "Test",
+      "time": "2021-02-21T09:51:10.171Z",
+      "chat_id": 1,
+      "id": 4
+    },
+    {
+      "message": "234234",
+      "time": "2021-02-21T09:51:39.977Z",
+      "chat_id": 2,
+      "id": 5
+    },
+    {
+      "message": "lorem ipsum",
+      "time": "2021-02-21T10:55:51.186Z",
+      "chat_id": 5,
+      "id": 10
+    },
+    {
+      "message": "sadedsadsfj",
+      "time": "2021-02-21T12:40:50.088Z",
+      "chat_id": 9,
+      "id": 11
+    },
+    {
+      "message": "osh",
+      "time": "2021-02-21T12:42:30.433Z",
+      "chat_id": 3,
+      "id": 12
+    },
+    {
+      "message": "send to Monica",
+      "time": "2021-02-21T12:43:38.059Z",
+      "chat_id": 14,
+      "id": 14
+    },
+    {
+      "message": "hell",
+      "time": "2021-02-21T19:14:42.416Z",
+      "chat_id": 5,
+      "id": 15
+    },
+    {
+      "message": "test 4",
+      "time": "2021-02-21T19:15:15.266Z",
+      "chat_id": 5,
+      "id": 16
+    },
+    {
+      "message": "paparamparam",
+      "time": "2021-02-21T19:17:52.171Z",
+      "chat_id": 6,
+      "id": 17
+    },
+    {
+      "message": "test",
+      "time": "2021-02-21T19:43:18.612Z",
+      "chat_id": 7,
+      "id": 18
+    },
+    {
+      "message": "this time",
+      "time": "2021-02-21T20:21:21.345Z",
+      "chat_id": 1,
+      "id": 19
+    },
+    {
+      "message": "test for time",
+      "time": "2021-02-21T20:29:55.519Z",
+      "chat_id": 1,
+      "id": 20
+    },
+    {
+      "message": "hey mari",
+      "time": "2021-02-21T21:11:20.471Z",
+      "chat_id": 13,
+      "id": 21
+    }
+  ]
+}
