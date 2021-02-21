@@ -168,7 +168,7 @@
                         <h4 class="user-info-name"  >
                           {{ userInfo.fullName }}
                         </h4>
-                        <p class="last-seen">last seen at 20:20</p>
+                        <p class="last-seen">{{userInfo.lastAct}}</p>
                       </div>
                       <div class="user-info-widgets">
                         <button class="info-btn">
@@ -280,7 +280,8 @@ export default {
       photoUrl: '',
       userName: '',
       phoneNumber: '',
-      bio: ''
+      bio: '',
+      lastAct: ''
     }
   }),
   methods: {
@@ -353,6 +354,7 @@ export default {
             this.userInfo.userName = userInfo.username
             this.userInfo.phoneNumber = userInfo.phone
             this.userInfo.bio = userInfo.bio
+            this.userInfo.lastAct = userInfo.activity
           })
     }
   },

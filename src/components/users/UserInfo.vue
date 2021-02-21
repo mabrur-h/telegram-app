@@ -15,7 +15,7 @@
           {{ userInfo.fullName }}
         </h4>
         <p class="last-seen">
-          last seen at 20:20
+          {{ userInfo.lastAct }}
         </p>
       </div>
       <v-divider></v-divider>
