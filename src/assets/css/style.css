@@ -370,6 +370,15 @@ i:before {
     color: #A39698 !important;
 }
 
+.footer-widgets-wrapper {
+    width: 10%;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
 .user-msg-footer {
     display: flex;
     justify-content: space-between;

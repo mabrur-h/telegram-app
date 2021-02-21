@@ -165,7 +165,7 @@
                   <header class="user-info" @click.stop="dialog = true">
                     <div class="user-info-wrapper">
                       <div class="personal-info">
-                        <h4 class="user-info-name">
+                        <h4 class="user-info-name"  >
                           Mamie Cruz
                         </h4>
                         <p class="last-seen">last seen at 20:20</p>
@@ -306,6 +306,7 @@ export default {
           .then(messages => {
             console.log('check message', messages)
             this.messages = messages
+            this.getMessageFromUser(this.userId)
           })
     },
     getNow: function() {

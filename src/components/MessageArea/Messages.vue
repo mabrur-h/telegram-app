@@ -21,8 +21,6 @@
         </div>
       </div>
     </div>
-  </div>
-    </footer>
 
     <v-dialog
         v-model="dialog"
@@ -34,7 +32,6 @@
     </v-dialog>
 
 
-  </div>
 
 </template>
 
