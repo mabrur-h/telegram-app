@@ -1,4 +1,4 @@
-# telegram-app
+# vue-telegram-app
 
 ## Project setup
 ```
