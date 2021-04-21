@@ -1,5 +1,8 @@
 # vue-telegram-app
 
+![Telegram](https://telegra.ph/file/e057ba5974cc584b6fc24.png)
+
+
 ## Project setup
 ```
 npm install
