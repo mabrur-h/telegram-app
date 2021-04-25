@@ -3,4 +3,5 @@
 
 # Detect styles false
 *.css linguist-detectable=false
+*.html linguist-detectable=false
 *.js linguist-detectable=true
